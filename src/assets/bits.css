@@ -1,0 +1,168 @@
+/*
+Design fundaments - bits
+- CLI look and feel.
+- "Windows" provide the context for individual sections ("features" - map to api functions): about the user, post content, etc.
+- Frames further encapsulate independent items inside feature
+- Todo: registers.css (posts, list of posts, navigation-bar, visual indicator, transition between windows
+- Todo: (cont) frames->content distribution syntax, transition at moving item selection
+*/
+
+/* Colors and Fonts */
+body {
+    background-color: #0a3d62; /* dark skyblue */
+    color: #ffffff; /* white */
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 1.5em;
+}
+
+.body {
+    font-size: 1em;
+}
+
+/* Text Categories */
+.keyword {
+    font-weight: bold;
+    color: #82ccdd; /* light blue */
+}
+
+.subtle {
+    color: #bbc9ce;
+}
+
+.readable {
+    color: #ffffff; /* white */
+}
+
+.footnote {
+    font-size: 0.8em;
+    color: #b0b2af; /* light green */
+}
+
+/* Links and Buttons */
+a, button {
+    color: #60a3bc; /* lighter blue */
+    text-decoration: none;
+    border: 1px solid #60a3bc;
+    padding: 2px 4px;
+}
+
+a:hover, button:hover {
+    color: #82ccdd; /* light blue */
+    border-color: #82ccdd;
+}
+
+/* Images */
+img {
+    border: 2px solid #60a3bc; /* lighter blue */
+}
+
+/* Frames */
+.frame {
+    border: 1px solid #b8e994; /* light green */
+    padding: 10px;
+}
+
+.frame-stacked {
+    border: 1px solid #b8e994; /* light green */
+    margin-bottom: 10px;
+}
+
+.frame-selected {
+    border: 2px solid #b8e994; /* light green */
+}
+
+/* Spacing Units */
+.padding-small {
+    padding: 5px;
+}
+
+.padding-medium {
+    padding: 10px;
+}
+
+.padding-large {
+    padding: 20px;
+}
+
+.margin-small {
+    margin: 5px;
+}
+
+.margin-medium {
+    margin: 10px;
+}
+
+.margin-large {
+    margin: 20px;
+}
+
+/* Layout Structures */
+.vertical-stack {
+    display: flex;
+    flex-direction: column;
+}
+
+.horizontal-items {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Overlay Frames */
+.overlay-frame {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: auto;
+    height: auto;
+    max-width: 90%;
+    max-height: 90%;
+    margin: auto;
+}
+
+.overlay-frame .frame {
+    max-width: 100%;
+    max-height: 100%;
+    background-color: #0a3d62; /* dark skyblue */
+}
+
+/* Interaction Rules */
+.vertical-stack .frame {
+    margin-bottom: 10px;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+.frame-selected {
+    animation: fadeIn 0.5s;
+}
+
+.frame-hidden {
+    animation: fadeOut 0.5s;
+    display: none;
+}
+
+/* Documentation */
+.doc {
+    font-size: 0.9em;
+    color: #b8e994; /* light green */
+}
