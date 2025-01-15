@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import {fetchUserPosts} from "@/backend-data/backend-api-queries";
+import {discoverUserAndPosts} from "@/backend-data/backend-api-queries";
 import type {PostData, UserData} from "@/backend-data/profile-schema.ts";
 import MainBar from "@/components/header/main-bar.vue";
 import PagesBrowse from "@/components/pages-browse/pages-browse.vue";
@@ -13,8 +13,10 @@ import {onMounted, ref} from "vue";
 import {useRoute} from "vue-router";
 
 /*Properties*/
-const route = useRoute<'profile-posts'>();
-const handle = route.params.handle as string;
+const route = useRoute<'new-profile'>();
+const name = route.params.name as string;
+const limit_items = route.params.items as string;
+const store = route.params.store as string;
 /* State variables */
 const page_size = 5;
 const page_index = ref<number>(1);
@@ -23,10 +25,10 @@ const posts = ref<PostData[]>([]);
 const user = ref<UserData | null>(null);
 onMounted(async () => {
     try {
-        const response = await fetchUserPosts(handle, 30);
-        console.log('response', response.user?.did);
+        const response = await discoverUserAndPosts(name, +limit_items, !!store);
+        if (!response) throw new Error("Could not find user");
         user.value = response.user;
-        posts.value = response.posts; // Fetch up to 20 posts
+        posts.value = response.posts;
     } catch (error) {
         console.error("Error fetching profile data:", error);
     }
@@ -84,6 +86,6 @@ function populatePages(ps: PostData[]) {
 
             </div>
         </section>
-
     </div>
+
 </template>

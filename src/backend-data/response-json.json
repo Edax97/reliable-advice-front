@@ -1,0 +1,61 @@
+{
+  "posts": [
+    {
+      "content": "I cannot repeat this enough: a study in a Petri dish is not equivalent to a person.\n\nDo you know what happens when you pour tap water on cells growing on a piece of plastic? \n\nThey explode.",
+      "date": "2025-01-15T03:47:38.694Z",
+      "detailed_review": "The claim that cells in a Petri dish explode when exposed to tap water highlights a key difference between in vitro and in vivo environments. While not directly verified, the concept is plausible due to osmotic pressure differences affecting cells outside physiological conditions. This underscores the complexity and non-equivalence of Petri dish studies to human biology.",
+      "id": 1,
+      "referencesjson": "[{\"citation\":\"Li J, Long H. (2024)\",\"resource_url\":\"https://doi.org/10.21769/bioprotoc.5111\"}]",
+      "summary": "Petri dish cells react differently to tap water than human cells.",
+      "topic": "Medicine",
+      "url": "at://did:plc:bcnugw2qsbpjl5hyuvdurx6t/app.bsky.feed.post/3lfqu6z7kfk2m",
+      "user_did": "did:plc:bcnugw2qsbpjl5hyuvdurx6t",
+      "validation": 3
+    },
+    {
+      "content": "No one is hiding natural cures for cancer, Mel Gibson and Joe Rogan.\n\nScience harnesses nature & improves it.\n\nEtoposide? From podophyllotoxin.\nDocetaxel? From paclitaxel.\nTopotecan? From camptothecan.\n\nCancer misinformation is life-threatening.\n\nRead my latest ⬇️\nnews.immunologic.org/p/no-one-is-...",
+      "date": "2025-01-14T17:10:40.780Z",
+      "detailed_review": "The claim that natural compounds are sources for cancer drugs like etoposide and docetaxel is supported by scientific literature. These drugs are derived from plant alkaloids, confirming that science uses natural substances as bases for treatment and not hidden cures.",
+      "id": 2,
+      "referencesjson": "[{\"citation\":\"Di Mauro A, Santorsola M, Savarese G, et.al. (2025)\",\"resource_url\":\"https://doi.org/10.1186/s12967-024-05971-5\"}]",
+      "summary": "Natural compounds are sources of some cancer drugs, supporting claim.",
+      "topic": "Medicine",
+      "url": "at://did:plc:bcnugw2qsbpjl5hyuvdurx6t/app.bsky.feed.post/3lfpqlzrer22b",
+      "user_did": "did:plc:bcnugw2qsbpjl5hyuvdurx6t",
+      "validation": 4
+    },
+    {
+      "content": "No, fenbendazole and ivermectin do NOT cure (or treat) cancer.\n\nThere is NO FDA-approved formulation of fenbendazole for ANY human health condition.\n\nPlease stop listening to Joe Rogan and his guests and don’t take veterinary formulations of chemicals that are unproven and potentially harmful.",
+      "date": "2025-01-10T19:15:55.562Z",
+      "detailed_review": "No scientific evidence supports fenbendazole or ivermectin as cancer treatments. They are not FDA-approved for such use in humans, aligning with the claim. Using these drugs without evidence poses health risks.",
+      "id": 3,
+      "referencesjson": "[{\"citation\":\"Sultana T, Jan U, Lee H, et.al. (2022)\",\"resource_url\":\"https://doi.org/10.3390/cimb44100338\"}]",
+      "summary": "Fenbendazole and ivermectin are unproven for cancer treatment.",
+      "topic": "Medicine",
+      "url": "at://did:plc:bcnugw2qsbpjl5hyuvdurx6t/app.bsky.feed.post/3lffvqclc3c2y",
+      "user_did": "did:plc:bcnugw2qsbpjl5hyuvdurx6t",
+      "validation": 4
+    },
+    {
+      "content": "Healthcare in America needs reform - but handing the wheel to wellness profiteers isn't the answer.\n\nReal reform is strengthening public health systems, addressing systemic inequities, & holding industries accountable to rigorous scientific standards.\n\n1/\n\nwww.medpagetoday.com/opinion/seco...",
+      "date": "2025-01-06T22:50:11.110Z",
+      "detailed_review": "No evidence supports fenbendazole and ivermectin as cancer treatments. While ivermectin shows potential in lab studies, clinical effectiveness is unproven. ",
+      "id": 4,
+      "referencesjson": "[{\"citation\":\"Brambillasca S, Cera MR et.al., (2024)\",\"resource_url\":\"https://doi.org/10.1016/j.biopha.2024.116991\"},{\"citation\":\"Sultana T, Jan U et.al., (2022)\",\"resource_url\":\"https://doi.org/10.3390/cimb44100338\"}]",
+      "summary": "Fenbendazole and ivermectin are not proven cancer treatments.",
+      "topic": "Medicine",
+      "url": "at://did:plc:bcnugw2qsbpjl5hyuvdurx6t/app.bsky.feed.post/3lf47tqqj5k2e",
+      "user_did": "did:plc:bcnugw2qsbpjl5hyuvdurx6t",
+      "validation": 3
+    }
+  ],
+  "user": {
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:bcnugw2qsbpjl5hyuvdurx6t/bafkreifrqewbwfxfdeaklor52jegjpby3dyjoe56cemw2s5cjpgxdnciae@jpeg",
+    "did": "did:plc:bcnugw2qsbpjl5hyuvdurx6t",
+    "handle": "drandrealove.bsky.social",
+    "last_scanned": "2025-01-15T06:05:00.900Z",
+    "name": "Andrea Love, PhD | Biomedical Scientist",
+    "reliability": 3.5,
+    "topic_list": "Medicine"
+  }
+}

@@ -11,25 +11,45 @@ Design fundaments - bits
 body {
     background-color: #0a3d62; /* dark skyblue */
     color: #ffffff; /* white */
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Consolas, monospace;
+    padding: 10px 5px;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-size: 1.5em;
+main {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.d1 {
+    font-size: 24em;
+}
+
+.h1 {
+    font-size: 1.8em;
+    color: #60a3bc;
+}
+
+.h2 {
+    font-size: 1.6em;
+}
+
+.h3 {
+    font-size: 1.4em;
 }
 
 .body {
-    font-size: 1em;
+    font-size: 1.2em;
 }
 
 /* Text Categories */
 .keyword {
     font-weight: bold;
-    color: #82ccdd; /* light blue */
 }
 
 .subtle {
     color: #bbc9ce;
+    font-weight: normal;
 }
 
 .readable {
@@ -37,54 +57,50 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .footnote {
-    font-size: 0.8em;
+    font-size: 1em;
     color: #b0b2af; /* light green */
 }
 
 /* Links and Buttons */
-a, button {
+a, button, .click-me {
+    font-size: 1em;
     color: #60a3bc; /* lighter blue */
     text-decoration: none;
     border: 1px solid #60a3bc;
-    padding: 2px 4px;
+    padding: 3px 5px;
 }
 
-a:hover, button:hover {
-    color: #82ccdd; /* light blue */
-    border-color: #82ccdd;
+a:hover, button:hover, .click-me:hover {
+    color: #bbe8f2; /* light blue */
+    border-color: #a9e1ee;
+    border-width: 2px;
+    cursor: pointer;
 }
 
-/* Images */
-img {
-    border: 2px solid #60a3bc; /* lighter blue */
+.option-selected {
+    font-weight: bold;
+    color: #0a3d62;
+    background-color: #bbe8f2;
+    padding: 3px 5px;
 }
+
 
 /* Frames */
 .frame {
-    border: 1px solid #b8e994; /* light green */
-    padding: 10px;
-}
-
-.frame-stacked {
-    border: 1px solid #b8e994; /* light green */
-    margin-bottom: 10px;
-}
-
-.frame-selected {
-    border: 2px solid #b8e994; /* light green */
+    border: 1px solid rgba(102, 212, 153, 0.2); /* light green */
 }
 
 /* Spacing Units */
-.padding-small {
-    padding: 5px;
-}
-
 .padding-medium {
     padding: 10px;
 }
 
 .padding-large {
     padding: 20px;
+}
+
+.padding-xlarge {
+    padding: 20px 200px;
 }
 
 .margin-small {
@@ -115,18 +131,22 @@ img {
     position: fixed;
     top: 0;
     left: 0;
-    width: auto;
     height: auto;
-    max-width: 90%;
-    max-height: 90%;
-    margin: auto;
+    max-width: 70%;
+    margin-left: 15%;
+    margin-top: 25vh;
 }
 
-.overlay-frame .frame {
-    max-width: 100%;
-    max-height: 100%;
-    background-color: #0a3d62; /* dark skyblue */
+.overlay-film {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    cursor: pointer;
+    background-color: rgba(31, 77, 101, 0.64);
 }
+
 
 /* Interaction Rules */
 .vertical-stack .frame {
@@ -153,7 +173,7 @@ img {
 }
 
 .frame-selected {
-    animation: fadeIn 0.5s;
+    animation: fadeIn 10s;
 }
 
 .frame-hidden {

@@ -1,18 +1,21 @@
 <script setup lang="ts">
-import { defineProps, defineEmits } from 'vue';
+import {defineProps, defineEmits, ref} from 'vue';
 
 const {options} = defineProps<{ options: any[] }>();
+const selected = ref(0);
 const emit = defineEmits<{ (e: 'optionSelected', option: string): void }>();
 
-function selectOption(option: string) {
+function selectOption(option: string, index: number) {
     emit('optionSelected', option);
+    selected.value = index;
 }
 </script>
 
 <template>
     <div>
-        <div class="custom-dropdown">
-            <div v-for="option in options" :key="option" class="custom-option" @click="selectOption(option)">
+        <div class="custom-filter">
+            <div v-for="(option, i) in options" :key="i" :class="i==selected ? 'option-selected' : 'click-me'"
+            @click="selectOption(option, i)">
                 {{ option }}
             </div>
         </div>
@@ -20,20 +23,11 @@ function selectOption(option: string) {
 </template>
 
 <style scoped>
-
-.custom-dropdown {
+.custom-filter {
     display: flex;
     flex-direction: row;
-}
-
-.custom-option {
-    padding: 10px;
-    cursor: pointer;
-    border: 1px solid #ccc;
-    margin-right: 5px;
-}
-
-.custom-option:hover {
-    background-color: #f0f0f0;
+    flex-wrap: wrap;
+    gap: 5px;
+    align-items: center;
 }
 </style>

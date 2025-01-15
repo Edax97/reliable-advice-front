@@ -1,0 +1,79 @@
+{
+  "user": {
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:6tc2t4gmbgju74qr5u5ac7tv/bafkreicx66dgxr2fh7n3mnm3xqtnsppcnwopv6dnzgfc5epuuitmqeqnu4@jpeg",
+    "did": "did:plc:6tc2t4gmbgju74qr5u5ac7tv",
+    "handle": "allentien.bsky.social",
+    "last_scanned": "2025-01-15T11:36:50.074Z",
+    "name": "Allen Tien, MD, MHS mdlogix.com 94,698",
+    "reliability": 2.1666666666666665,
+    "topic_list": "Public health"
+  },
+  "posts": [
+    {
+      "content": "#SuicidePrevention #Suicide rate for #farmers is more than double that of veterans, which is more than double that of general population. Former farmer Debbie Weingarten gives an insider’s perspective on farm life – and how to help\n\nwww.theguardian.com/us-news/2017...\n\n#SharedFacts #ActOnKnowledge",
+      "date": "2025-01-11T20:04:02.375Z",
+      "detailed_review": "The claim that farmers have a higher suicide rate than veterans and the general population is supported by multiple sources. Studies indicate that farmers face significant mental health risks due to stressors like economic pressures and isolation. Research confirms that suicide rates among farmers are notably higher, aligning with the claim.",
+      "referencesJSON": "[{\"citation\":\"Dawes N, Franklin RC., (2024)\",\"resource_url\":\"https://doi.org/10.1080/1059924x.2024.2426500\"},{\"citation\":\"Paskewitz EA, Bertram VL, Miller LE., (2024)\",\"resource_url\":\"https://doi.org/10.1080/10410236.2024.2378255\"}]",
+      "summary": "Farmer suicide rates exceed veterans and the general population.",
+      "topic": "Public health",
+      "url": "at://did:plc:6tc2t4gmbgju74qr5u5ac7tv/app.bsky.feed.post/3lfiivb4mes2g",
+      "user_did": "did:plc:6tc2t4gmbgju74qr5u5ac7tv",
+      "validation": 3
+    },
+    {
+      "content": "There is an ongoing battle between #Capitalism (unconstrained by #Ethics or #Regulation) and #Science, resulting in large profits at ignored costs of major public health harm\n\n#SharedFacts #StanleyRobinson #Education #Gaslighting #CounterfactualReasoning",
+      "date": "2025-01-11T21:10:24.365Z",
+      "detailed_review": "The claim that unregulated capitalism prioritizes profit over public health is partially supported. Sources indicate capitalism often undermines health by promoting economic growth over well-being, impacting public health negatively, though the extent varies by context.",
+      "referencesJSON": "[{\"citation\":\"Noonan RJ., (2024)\",\"resource_url\":\"https://doi.org/10.1093/heapro/daae090\"},{\"citation\":\"Wood B, McLean A, Sacks G., (2024)\",\"resource_url\":\"https://doi.org/10.1093/heapro/daae124\"}]",
+      "summary": "Capitalism often prioritizes profit over public health, causing harm.",
+      "topic": "Public health",
+      "url": "at://did:plc:6tc2t4gmbgju74qr5u5ac7tv/app.bsky.feed.post/3lfimlwncjx2g",
+      "user_did": "did:plc:6tc2t4gmbgju74qr5u5ac7tv",
+      "validation": 2
+    },
+    {
+      "content": "go.bsky.app/41KnMW7",
+      "date": "2025-01-15T01:23:20.874Z",
+      "detailed_review": "The sources provided do not specifically address suicide rates among farmers compared to veterans and the general population. Further research is necessary.",
+      "referencesJSON": "[{\"citation\":\"Pranckeviciene E, Kasperiuniene J., (2024)\",\"resource_url\":\"https://doi.org/10.3390/ijerph21091202\"},{\"citation\":\"Simoni C, Costello J, Blanchette L, Ratliff J, Bith-Melander P, Jindal C, Cassidy KJ, Choi YM, Kronsteadt S, Efird J., (2024)\",\"resource_url\":\"https://doi.org/undefined\"}]",
+      "summary": "Could not reach a veredict",
+      "topic": "Public health",
+      "url": "at://did:plc:olmmz474h4nj6dgwhapmxcyv/app.bsky.feed.post/3lfqm4yhu2k24",
+      "user_did": "did:plc:6tc2t4gmbgju74qr5u5ac7tv",
+      "validation": 1
+    },
+    {
+      "content": "In a response to a q from Sen. Sullivan (R-AK) during the SecDef confirmation hearing, Hegseth said, \"My Secretary of the Navy won't be focused on climate change.\" \n\nAs I wrote earlier this spring, this approach makes the United States less safe and undercuts US military readiness:",
+      "date": "2025-01-14T17:33:21.231Z",
+      "detailed_review": "The sources confirm that burning fossil fuels significantly contributes to climate change, aligning with the claim that stopping this is crucial to address the issue.",
+      "referencesJSON": "[{\"citation\":\"Ansari E, Kar SK., (2024)\",\"resource_url\":\"https://doi.org/10.4103/indianjpsychiatry.indianjpsychiatry_526_24\"},{\"citation\":\"Li L, Awada T, Zhang Y, Paustian K., (2024)\",\"resource_url\":\"https://doi.org/10.1111/gcb.17604\"}]",
+      "summary": "Burning fossil fuels is a major driver of climate change.",
+      "topic": "Public health",
+      "url": "at://did:plc:kceh54r62i7cqri4pym6q3vr/app.bsky.feed.post/3lfprul73622g",
+      "user_did": "did:plc:6tc2t4gmbgju74qr5u5ac7tv",
+      "validation": 4
+    },
+    {
+      "content": "🙏🏽",
+      "date": "2025-01-15T01:00:44.778Z",
+      "detailed_review": "The sources reviewed do not directly compare suicide rates between farmers and veterans. Therefore, the claim that farmer suicide rates are double those of veterans remains unsupported by the provided evidence.",
+      "referencesJSON": "[{\"citation\":\"Pranckeviciene E, Kasperiuniene J., (2024)\",\"resource_url\":\"https://doi.org/10.3390/ijerph21091202\"},{\"citation\":\"Simoni C, Costello J, Blanchette L, Ratliff J, Bith-Melander P, Jindal C, Cassidy KJ, Choi YM, Kronsteadt S, Efird J., (2024)\",\"resource_url\":\"https://doi.org/undefined\"}]",
+      "summary": "Claim lacks direct evidence linking farmer and veteran suicide rates.",
+      "topic": "Public health",
+      "url": "at://did:plc:54sd6bipe7inusth2cgvlcc4/app.bsky.feed.post/3lfqkul73kk2i",
+      "user_did": "did:plc:6tc2t4gmbgju74qr5u5ac7tv",
+      "validation": 1
+    },
+    {
+      "content": "In a response to a q from Sen. Sullivan (R-AK) during the SecDef confirmation hearing, Hegseth said, \"My Secretary of the Navy won't be focused on climate change.\" \n\nAs I wrote earlier this spring, this approach makes the United States less safe and undercuts US military readiness:",
+      "date": "2025-01-14T17:33:21.231Z",
+      "detailed_review": "The reviewed sources highlight capitalism's influence on structural inequalities and public health but do not directly address the impact on scientific progress. The claim is partially supported.",
+      "referencesJSON": "[{\"citation\":\"Uzzi M, Whittaker S, Esposito MH, Dean LT, Buggs SA, Pollack Porter KM., (2024)\",\"resource_url\":\"https://doi.org/10.1016/j.socscimed.2024.117255\"},{\"citation\":\"Wells N, Nguyen VK, Harbarth S., (2024)\",\"resource_url\":\"https://doi.org/10.1080/20523211.2024.2430441\"}]",
+      "summary": "Claim partially supported by evidence on capitalism's public health impacts.",
+      "topic": "Public health",
+      "url": "at://did:plc:kceh54r62i7cqri4pym6q3vr/app.bsky.feed.post/3lfprul73622g",
+      "user_did": "did:plc:6tc2t4gmbgju74qr5u5ac7tv",
+      "validation": 2
+    }
+  ]
+}

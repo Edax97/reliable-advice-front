@@ -1,15 +1,10 @@
-export const claimStatus = new Map<number, string>([
-    [4, 'Consensus'],
-    [3, 'Questionable'],
-    [2, 'Dubious'],
-    [1, 'Debunked'],
-    [0, '']
+export const status_to_score = new Map<string, number>([
+    ['All', 0],
+    ['Debunked', 1],
+    ['Dubious', 2],
+    ['Questionable', 3],
+    ['Consensus', 4],
 ]);
-export enum topic {
-    mental_health = 'Mental health',
-    nutrition = 'Nutrition',
-    neuroscience = 'Neuroscience',
-    public_health = 'Public health',
-    preventive = 'Prevention',
-    medicine = 'Medicine'
-}
+export const status_list = [...status_to_score.keys()];
+export const topics = ['Mental health', 'Nutrition', 'Neuroscience',
+    'Public health', 'Prevention', 'Medicine', 'All'];
